@@ -28,3 +28,15 @@ fn main() {
     let single_number = Solution::single_number(nums);
     println!("Single number: {}", single_number);
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_single_number() {
+        let nums: Vec<i32> = vec![4, 1, 2, 1, 2];
+        assert_eq!(Solution::single_number(nums), 4);
+    }
+
+}
