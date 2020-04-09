@@ -11,3 +11,7 @@ edition = "2018"
 [[bin]]
 name = "day01"
 src = "src/day01.rs"
+
+[[bin]]
+name = "day02"
+src = "src/day02.rs"
